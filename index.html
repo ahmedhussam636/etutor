@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- style css link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>E-tutor</title>
+</head>
+
+<body>
+    <!-- navbar links -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-links">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become an instructor</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="currencyDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="currencyDropdown">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                            <li><a class="dropdown-item" href="#">L.E.</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Español</a></li>
+                            <li><a class="dropdown-item" href="#">Français</a></li>
+                            <li><a class="dropdown-item" href="#">عربي</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar links -->
+
+
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imgs/icons/logo.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-3" id="navbarNav">
+                <div class="input-group ms-3">
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>browse...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <form class="d-flex ms-3">
+                    <input class="form-control" type="search" placeholder="What do you want to learn..?"
+                        aria-label="Search">
+                </form>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+            <li class="nav-item ms-3">
+                <button type="button" class="nav-btn"> Creat Account</button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="sign-in ms-3">Sign in</button>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero section -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h1 class="display-1 mb-4">Learn with expert anytime anywhere</h1>
+                    <p class="mb-4 text-muted fs-6">Our mision is to help people to find the best course online and
+                        learn with expert anytime, anywhere.</p>
+                    <button type="button" class="nav-btn"> Creat Account</button>
+                </div>
+                <div class="col-md-6 align-self-center text-center ">
+                    <img src="imgs/Images.jpg" alt="hero section" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end hero section -->
+
+    <!-- start categories -->
+
+    <section class="categories py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-1">Browse Top Categories</h2>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <div class="card first-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/Cpu.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Lable</h5>
+                            <p class="card-text text-muted m-0">63,476 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card seconed-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/Handshake.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Business</h5>
+                            <p class="card-text text-muted m-0">52,822 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card third-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/CreditCard.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Finance & Accounting</h5>
+                            <p class="card-text text-muted m-0">33,841 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card fourth-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/ChartBarHorizontal.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">IT & Software</h5>
+                            <p class="card-text text-muted m-0">22,649 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card fifth-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img-orange ">
+                            <img src="imgs/icons/BugDroid.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Personal Development</h5>
+                            <p class="card-text text-muted m-0">20,126 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card sixth-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/Receipt.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Office Productivity</h5>
+                            <p class="card-text text-muted m-0">13,932 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card first-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/MegaphoneSimple.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Marketing</h5>
+                            <p class="card-text text-muted m-0">12,068 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card sixth-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/Camera.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Photography & Video</h5>
+                            <p class="card-text text-muted m-0">6,196 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card third-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/Package.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Lifestyle</h5>
+                            <p class="card-text text-muted m-0">2,736 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card fourth-card  d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/PenNib.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Design</h5>
+                            <p class="card-text text-muted m-0">2,600 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card seconed-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/FirstAidKit.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Health & Fitness</h5>
+                            <p class="card-text text-muted m-0">1,678 Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card third-card d-flex flex-row align-items-center p-4">
+                        <!-- img -->
+                        <div class="card-img">
+                            <img src="imgs/icons/Headphones.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">Music</h5>
+                            <p class="card-text text-muted m-0">959 Courses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="categories-footer text-center mt-5 mb-5 d-flex flex-row align-items-center justify-content-center">
+            <h5 class="m-0">We have more category & subcategory.</h5>
+            <a href="#" class=" ms-2 m-0 ">Browse All <span class="ms-2"> <i class="fa-solid fa-arrow-right"></i>
+                </span> </a>
+        </div>
+    </section>
+
+    <!-- end categories -->
+
+    <!-- start best sellers -->
+    <section class="best-sellers">
+        <div class="container">
+            <h2 class="text-center display-1 mb-5 py-5">Best Sellers</h2>
+            <div class="row g-3">
+                <!-- first card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Machine Learning A-Z™: Hands-On Python & R In Data...</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-2.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Developments
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">The Complete 2021 Web Development Bootcamp</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-3.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health">
+                                    Business
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Learn Python Programming Masterclass</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-4.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">The Complete Digital Marketing Course - 12 Courses in 1</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next page navigation -->
+            <div class="row g-3 mt-5 mb-5">
+                <!-- sixth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-5.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Music ">
+                                    Music
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">The Complete Foundation Stock Trading Course</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- seventh card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-6.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Beginner to Pro in Excel: Financial Modeling and Valuati...</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- eighth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-7.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health Fitness ">
+                                    Health & Fitness
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">The Python Mega Course: Build 10 Real World Applications</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ninth card -->
+                <div class="col-lg-3 mb-5">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-8.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Copywriting - Become a Freelance Copywriter, your ow...</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- end best sellers -->
+
+    <!-- start Our feature courses -->
+
+    <div class="container py-5">
+        <!-- Section Title -->
+        <div class="row align-items-center justify-content-between mb-5">
+            <div class="col-lg-6">
+                <h2 class="display-4 fw-bold">Our Feature Courses</h2>
+            </div>
+            <div class="col-lg-6 text-lg-center">
+                <p class="text-muted fs-6">Vestibulum sed dolor sed diam mollis maximus vel nec dolor. Donec varius
+                    purus et eleifend porta.
+                </p>
+            </div>
+        </div>
+
+        <!-- Courses Grid -->
+        <div class="row g-4">
+            <!-- Course 1 -->
+            <div class="col-md-6">
+                <div class="course-card border rounded overflow-hidden shadow-sm">
+                    <img src="imgs/feature courses.png" alt="Course Image" class="img-fluid">
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="title health">Health & Fitness</span>
+                            <span class="text-danger fw-bold">
+                                <del class="text-muted">$26.00</del> $14.00
+                            </span>
+                        </div>
+                        <h5 class="fw-bold mb-3">Investing In Stocks The Complete Course! (13 H...)</h5>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="imgs/Photo.svg" alt="Avatar" class="rounded-circle"
+                                    style="width: 30px; height: 30px;">
+                                <span class="text-muted">Kevin Gilbert</span>
+                            </div>
+                            <div class="d-flex align-items-center text-warning">
+                                <i class="fa-solid fa-star"></i> <span class="ms-2">5.0</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between ms-1">
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/User.png" alt="">
+                                <span class="text-dark">265.7K <small class="text-muted">students</small></span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/bar-chart.png" alt="">
+                                <span>Beginner</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/Clock.png" alt="">
+                                <span>12 hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-md-6">
+                <div class="course-card border rounded overflow-hidden shadow-sm">
+                    <img src="imgs/feature courses-1.png" alt="Course Image" class="img-fluid">
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="title Design">Personal Development</span>
+                            <span class="text-danger fw-bold">
+                                <del class="text-muted">$26.00</del> $14.00
+                            </span>
+                        </div>
+                        <h5 class="fw-bold mb-3">Google Analytics Certification - Learn How To...</h5>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="imgs/Photo.svg" alt="Avatar" class="rounded-circle"
+                                    style="width: 30px; height: 30px;">
+                                <span class="text-muted">Kevin Gilbert</span>
+                            </div>
+                            <div class="d-flex align-items-center text-warning">
+                                <i class="fa-solid fa-star"></i> <span class="ms-2">5.0</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between ms-1">
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/User.png" alt="">
+                                <span class="text-dark">265.7K <small class="text-muted">students</small></span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/bar-chart.png" alt="">
+                                <span>Beginner</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/Clock.png" alt="">
+                                <span>12 hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-md-6">
+                <div class="course-card border rounded overflow-hidden shadow-sm">
+                    <img src="imgs/feature courses-2.png" alt="Course Image" class="img-fluid">
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="title Developments">Productivity</span>
+                            <span class="text-danger fw-bold">
+                                <del class="text-muted">$26.00</del> $14.00
+                            </span>
+                        </div>
+                        <h5 class="fw-bold mb-3" style="color: var(--orange);">Adobe XD for Web Design: Essential
+                            Principles</h5>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="imgs/Photo.svg" alt="Avatar" class="rounded-circle"
+                                    style="width: 30px; height: 30px;">
+                                <span class="text-muted">Kevin Gilbert</span>
+                            </div>
+                            <div class="d-flex align-items-center text-warning">
+                                <i class="fa-solid fa-star"></i> <span class="ms-2">5.0</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between ms-1">
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/User.png" alt="">
+                                <span class="text-darked">265.7K <small class="text-muted">students</small></span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/bar-chart.png" alt="">
+                                <span>Beginner</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/Clock.png" alt="">
+                                <span>12 hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="col-md-6 mb-5">
+                <div class="course-card border rounded overflow-hidden shadow-sm">
+                    <img src="imgs/feature courses-3.png" alt="Course Image" class="img-fluid">
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3 ms-2">
+                            <span class="title Music ">Music</span>
+                            <span class="text-danger fw-bold">
+                                <del class="text-muted">$26.00</del> $14.00
+                            </span>
+                        </div>
+                        <h5 class="fw-bold mb-3">The Python Mega Course: Build 10 Real World...</h5>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="imgs/Photo.svg" alt="Avatar" class="rounded-circle"
+                                    style="width: 30px; height: 30px;">
+                                <span class="text-muted">Kevin Gilbert</span>
+                            </div>
+                            <div class="d-flex align-items-center text-warning">
+                                <i class="fa-solid fa-star"></i> <span class="ms-2">5.0</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between ms-1">
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/User.png" alt="">
+                                <span class="text-dark">265.7K <small class="text-muted">students</small></span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/bar-chart.png" alt="">
+                                <span>Beginner</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="imgs/icons/Clock.png" alt="">
+                                <span>12 hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Our feature courses -->
+
+
+    <!-- start recently added courses -->
+
+    <div class="container recently py-5 mb-5">
+        <!-- Section Title -->
+        <div class="text-center mb-4">
+            <h2 class="fw-bold">Recently Added Courses</h2>
+        </div>
+
+        <!-- Courses Grid -->
+        <div class="row">
+            <!-- Course 1 -->
+            <div class="col-md-3">
+                <div class="recently-course-card border rounded overflow-hidden shadow-sm">
+                    <img src="imgs/recent-course.png" alt="Python Mega Course" class="img-fluid recently-img">
+                    <div class="card-body p-1">
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="title Design">
+                                Design
+                            </div>
+                            <div class="price p-3">
+                                $57
+                            </div>
+                        </div>
+                        <h5 class="card-title">The Python Mega Course: Build 10 Real World Applications</h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                        </div>
+                        <div class="views d-flex align-items-center gap-2 ">
+                            <img src="imgs/icons/User.png" alt="">
+                            265.7K <span class="text-muted"> students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-md-3">
+                <div class="recently-course-card border rounded overflow-hidden shadow-sm">
+                    <img src="imgs/Course Images-5.png" alt="Facebook Ads Course" class="img-fluid recently-img">
+                    <div class="card-body p-1">
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="title Developments">
+                                IT & Software
+                            </div>
+                            <div class="price p-3">
+                                $57
+                            </div>
+                        </div>
+                        <h5 class="card-title">Facebook Ads & Facebook Marketing MASTERY 2021 Cours...</h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                        </div>
+                        <div class="views d-flex align-items-center gap-2 ">
+                            <img src="imgs/icons/User.png" alt="">
+                            265.7K <span class="text-muted"> students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-md-3">
+                <div class="recently-course-card border rounded overflow-hidden shadow-sm">
+                    <img src="imgs/recent-course-2.png" alt="Python Bootcamp" class="img-fluid recently-img">
+                    <div class="card-body p-1">
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="title health">
+                                Design
+                            </div>
+                            <div class="price p-3">
+                                $57
+                            </div>
+                        </div>
+                        <h5 class="card-title">2021 Complete Python Bootcamp From Zero to Hero in Python</h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-row align-items-center justify-content-between p-1">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                        </div>
+                        <div class="views d-flex align-items-center gap-2 ">
+                            <img src="imgs/icons/User.png" alt="">
+                            265.7K <span class="text-muted"> students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add to Cart Card (Next to Course 3) -->
+            <div class="col-md-3 mt-4 mb-5">
+                <div class="Add-to-Cart-Card border rounded overflow-hidden shadow-sm bg-light m-2 p-3">
+                    <div class="card-body m-2">
+                        <div class="title Design ">
+                            Design
+                        </div>
+                        <h5 class="card-title mt-2 fs-6">2021 Complete Python Bootcamp From Zero to Hero in Python.</h5>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="d-flex align-items-center gap-2 mt-2">
+                            <img src="imgs/Photo.svg" alt="Avatar" class="rounded-circle"
+                                style="width: 48px; height: 48px;">
+                            <span class="text-muted">cousre by <br> <span class="text-dark">Kevin Gilbert</span> </span>
+                        </div>
+                        <div class="d-flex align-items-center text-warning">
+                            <i class="fa-solid fa-star"></i> <span class="ms-2">5.0</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between ms-1 mt-2">
+                        <div class="d-flex align-items-center">
+                            <img src="imgs/icons/User.png" alt="">
+                            <span class="text-dark">265.7K <small class="text-muted">students</small></span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="imgs/icons/bar-chart.png" alt="">
+                            <span>Beginner</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="imgs/icons/Clock.png" alt="">
+                            <span>12 hours</span>
+                        </div>
+                    </div>
+                    <div class=" mt-4 mb-4 d-flex flex-row align-items-center justify-content-between">
+                        <span class="text-danger fw-bold">
+                            <del class="text-muted">$26.00</del> $14.00
+                        </span>
+                        <div class="discount">
+                            <span>56% off</span>
+                        </div>
+                        <div class="heart">
+                            <img src="imgs/Heart.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <ul class="list-unstyled mt-3">
+                        <h5>What you’ll learn</h5>
+                        <li class="mb-3 text-center fs-6"><i class="fa-solid fa-check text-success"></i> Learn to use
+                            Python
+                            professionally, learning both Python 2 and Python 3!</li>
+                        <li class="mb-3 text-center fs-6"><i class="fa-solid fa-check text-success"></i> Create games
+                            with
+                            Python, like Tic Tac Toe and Blackjack!</li>
+                        <li class="mb-3 text-center fs-6"><i class="fa-solid fa-check text-success"></i> Create games
+                            with
+                            Python, like Tic Tac Toe and Blackjack!</li>
+                    </ul>
+                    <hr>
+                    <div class="buttons d-flex flex-column text-center align-items-center">
+                        <button type="button" class="sign-in mb-3"> <i class="fa-solid fa-cart-shopping"></i> Add to
+                            Cart</button>
+                        <button type="button" class="nav-btn mb-3"> Course Detail </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Browse All Button -->
+        <div class="text-center mt-4 mb-5">
+            <button type="button" class="nav-btn"> Browse All <i class="fa-solid fa-arrow-right ms-2"></i></button>
+        </div>
+    </div>
+
+    <!-- end recently added courses -->
+
+    <!-- start become an a instructor -->
+    <div class="become-instructor py-5">
+        <div class="row">
+            <!-- Text Content -->
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-start p-5">
+                <div class="overlay p-4">
+                    <h2 class="fw-bold mb-3 text-white">Become an Instructor</h2>
+                    <p class="text-white mb-4">
+                        Instructors from around the world teach millions <br> of students on Udemy. We provide the tools
+                        <br> and skills to teach what you love.
+                    </p>
+                    <button type="button" class="nav-btn"> Start teaching <i class="fa-solid fa-arrow-right ms-2"></i>
+                    </button>
+                    <img src="imgs/become-instreactor-png.png" alt="Become an Instructor" class="instructor-img">
+                </div>
+            </div>
+
+            <!-- Steps Section -->
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-start p-5">
+                <h2 class="fw-bold text-center mb-4">Your teaching & earning steps</h2>
+
+                <!-- Steps -->
+                <div class="row">
+                    <!-- Step 1 -->
+                    <div class="col-5 d-flex align-items-center mb-4">
+                        <div class="step-number step-number-1 me-3">1</div>
+                        <p class="mb-0">Apply to become instructor</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="col-5 d-flex align-items-center mb-4">
+                        <div class="step-number step-number-2 me-3">2</div>
+                        <p class="mb-0">Build & edit your profile</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="col-5 d-flex align-items-center mb-4">
+                        <div class="step-number step-number-3 me-3">3</div>
+                        <p class="mb-0">Create your new course</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="col-5 d-flex align-items-center mb-4">
+                        <div class="step-number step-number-4 me-3">4</div>
+                        <p class="mb-0">Start teaching & earning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end become an a instructor -->
+
+
+    <!-- start instructor of the month -->
+
+    <section class="instructors-section py-5">
+        <div class="container">
+            <!-- Section Title -->
+            <h2 class="text-center fw-bold mb-5">Top Instructor of the Month</h2>
+
+            <!-- Instructors Cards -->
+            <div class="row">
+                <!-- Instructor Card -->
+                <div class="col-md-3">
+                    <div class="instructor-card text-center">
+                        <img src="imgs/instructor-1.png" class="instructor-image" alt="Devon Lane">
+                        <div class="instructor-info">
+                            <h5 class="instructor-name">Devon Lane</h5>
+                            <p class="instructor-title">Senior Developer</p>
+                            <hr>
+                            <div class="instructor-rating d-flex justify-content-center align-items-center gap-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <span>4.6</span>
+                                <p class="text-muted m-0">854 students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructor Card -->
+                <div class="col-md-3">
+                    <div class="instructor-card text-center">
+                        <img src="imgs/instructor-2.png" class="instructor-image" alt="Darrell Steward">
+                        <div class="instructor-info">
+                            <h5 class="instructor-name">Darrell Steward</h5>
+                            <p class="instructor-title">Digital Product Designer</p>
+                            <hr>
+                            <div class="instructor-rating d-flex justify-content-center align-items-center gap-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <span>4.9</span>
+                                <p class="text-muted m-0">451,444 students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructor Card -->
+                <div class="col-md-3">
+                    <div class="instructor-card text-center">
+                        <img src="imgs/instructor-3.png" class="instructor-image" alt="Jane Cooper">
+                        <div class="instructor-info">
+                            <h5 class="instructor-name">Jane Cooper</h5>
+                            <p class="instructor-title">UI/UX Designer</p>
+                            <hr>
+                            <div class="instructor-rating d-flex justify-content-center align-items-center gap-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <span>4.8</span>
+                                <p class="text-muted m-0">435,671 students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructor Card -->
+                <div class="col-md-3">
+                    <div class="instructor-card text-center">
+                        <img src="imgs/instructor-4.png" class="instructor-image" alt="Albert Flores">
+                        <div class="instructor-info">
+                            <h5 class="instructor-name">Albert Flores</h5>
+                            <p class="instructor-title">Adobe Instructor</p>
+                            <hr>
+                            <div class="instructor-rating d-flex justify-content-center align-items-center gap-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <span>4.7</span>
+                                <p class="text-muted m-0">511,123 students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div
+                class="categories-footer text-center mt-5 mb-5 d-flex flex-row align-items-center justify-content-center">
+                <h5 class="m-0">Thousands of students are waiting for an instructor. Start teaching & earning now!</h5>
+                <a href="#" class=" ms-2 m-0 ">Become an Instructor <span class="ms-2"> <i
+                            class="fa-solid fa-arrow-right"></i>
+                    </span> </a>
+            </div>
+        </div>
+    </section>
+    <!-- end instructor of the month -->
+
+    <!-- start trusted companies -->
+
+    <section class="trusted-companies py-5">
+        <div class="container">
+            <div class="row ms-2">
+                <div class="col-md-4">
+                    <h2 class="display-1 fw-bold mb-4">6.3k trusted companies</h2>
+                    <p class="mb-5 text-muted">Nullam egestas tellus at enim ornare tristique. Class aptent taciti
+                        sociosqu ad litora torquent per conubia nostra.</p>
+                </div>
+
+                <div class="col-md-8">
+                    <!-- first row-->
+                    <div class="row mb-4 ms-2">
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/netflixpng.png" class="img-fluid" alt="company-1">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/youtube.png" class="img-fluid" alt="company-2">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/google.png" class="img-fluid" alt="company-3">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/lenovo.png" class="img-fluid" alt="company-4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- second row -->
+                    <div class="row ms-2">
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/slack.png" class="img-fluid" alt="company-5">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/verizon.png" class="img-fluid" alt="company-6">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/lexmark.png" class="img-fluid" alt="company-7">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="bg-white shadow d-flex align-items-center justify-content-center"
+                                style="width: 200px; height: 100px;">
+                                <img src="imgs/microsoft.png" class="img-fluid" alt="company-8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end trusted companies -->
+
+    <!-- start footer -->
+
+    <footer class=" py-5 text-light">
+        <div class="container">
+            <!-- Start Learning Row -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Start learning with 67.1k <br> Students around the world.</h2>
+                    <button type="button" class="sign-in footer-btn"> Creat Account</button>
+                    <button class=" broswe-btn ms-3" style="width: 197px; height: 48px;">Browse All Courses</button>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">6.3k</h3>
+                        <p class="mb-0">Online courses</p>
+                    </div>
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">26k</h3>
+                        <p class="mb-0">Certified Instructors</p>
+                    </div>
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">99.9%</h3>
+                        <p class="mb-0">Success <br> Rate</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-secondary mt-5">
+            <!-- Footer Content -->
+            <div class="row py-4 mt-5">
+                <!-- Brand Section -->
+                <div class="col-md-3">
+                    <img src="imgs/icons/LOGO-2.png" alt="" class="mb-3">
+                    <p class="brand-p">Aliquam rhoncus ligula est, non pulvinar elit convallis nec. Donec mattis odio
+                        at.</p>
+                    <div class="d-flex gap-3 footer-icon mb-4">
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-facebook fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay icon-active shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-youtube fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Categories -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Top 4 Category</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Development</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Finance & Accounting</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Design</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Business</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Become Instructor</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Career</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Help Center</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">FAQs</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Download App -->
+                <div class="col-md-3 d-flex flex-column">
+                    <h6 class="fw-bold fs-4 mb-4">Download Our App</h6>
+                    <a href="#" class="btn btn-outline-light mb-2"><i class="fab fa-apple"></i> App Store</a>
+                    <a href="#" class="btn btn-outline-light"><i class="fab fa-google-play"></i> Play Store</a>
+                </div>
+            </div>
+
+            <hr class="bg-secondary">
+
+            <!-- Copyright -->
+            <div class="text-center">
+                <div class="row align-items-center">
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <div class="text-start">
+                            <p class="mb-0 fs-6">© 2024 - Eduflex. Designed by <a href="#"
+                                    class="text-light">Ahmed Hussam</a>. All rights reserved.</p>
+                        </div>
+                        <div class="text-end">
+                            <select class="form-select bg-dark text-light border-light w-auto d-inline-block">
+                                <option selected>English</option>
+                                <option>Spanish</option>
+                                <option>French</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- js link -->
+    <script src="script.js"></script>
+</body>
+
+</html>

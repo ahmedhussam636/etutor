@@ -1,0 +1,648 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+li {
+    list-style: none;
+}
+
+:root {
+    --dark-warrning: #65390C;
+    --dark-green: #15711F;
+    --dark-move: #342F98;
+    --light-white: #F5F7FA;
+    --light-red: #FFF0F0;
+    --light-orange: #FFEEE8;
+    --black: #000000;
+    --gray: #1D2026;
+    --white: #FFFFFF;
+    --orange: #FF6636;
+    --light-gray: #8C94A3;
+    --move: #EBEBFF;
+    --green: #E1F7E3;
+    --warnnig: #FFF2E5;
+    --fonts: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
+
+/* general styles */
+
+.navbar-links {
+    height: 52px;
+    background-color: var(--black);
+}
+
+.nav-link.active {
+    color: var(--orange) !important;
+}
+
+.navbar-links a {
+    color: var(--light-gray);
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    color: var(--orange);
+    border-top: var(--orange) 2px solid;
+}
+
+.navbar-links a.active {
+    color: var(--orange);
+    border-top: var(--orange) 2px solid;
+}
+
+.navbar-links a.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-links .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--gray);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 3px;
+    margin-left: 4px;
+    border-radius: 6px;
+    padding: 6px 0px;
+}
+
+.navbar-links .dropdown-content a {
+    color: var(--light-gray);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* end general styles */
+
+/* navbar */
+
+.form-control {
+    width: 424px !important;
+    height: 48px !important;
+
+}
+
+.input-group {
+    width: 200px !important;
+    height: 48px;
+}
+
+.sign-in {
+    background-color: var(--orange);
+    border-radius: none !important;
+    border: none;
+    color: var(--white);
+    width: 100px;
+    height: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-btn {
+    background-color: var(--light-orange);
+    border-radius: none !important;
+    border: none;
+    color: var(--orange);
+    width: 168px;
+    height: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* end navbar */
+
+/* hero */
+.display-1 {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 74px;
+    letter-spacing: -2%;
+    color: var(--gray);
+}
+
+/* end hero */
+
+
+/* start categories */
+
+.card {
+    border: none;
+    width: 312px;
+    height: 104px;
+}
+
+.card-img-top {
+    width: 32px;
+    height: 32px;
+
+}
+
+.card-img-orange {
+    width: 64px;
+    height: 64px;
+    background-color: var(--orange);
+    padding: 16px;
+}
+
+.card-img {
+    width: 64px;
+    height: 64px;
+    background-color: var(--white);
+    padding: 16px;
+}
+
+.first-card {
+    background-color: var(--move);
+}
+
+.seconed-card {
+    background-color: var(--green);
+}
+
+.third-card {
+    background-color: var(--warnnig);
+}
+
+.fourth-card {
+    background-color: var(--light-red);
+}
+
+.fifth-card {
+    background-color: var(--white);
+}
+
+.sixth-card {
+    background-color: var(--light-white);
+}
+
+.categories-footer h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.categories-footer a {
+    color: var(--orange);
+    text-decoration: none;
+    padding: 12px 16px;
+}
+
+/* end categories */
+
+/* start best sellers */
+
+.best-sellers {
+    background-color: var(--light-white);
+}
+
+
+.fa-star {
+    color: var(--orange);
+
+}
+
+.title {
+    width: 94px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.price {
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testimonial-card {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Design {
+    color: var(--orange);
+    background-color: var(--warnnig);
+}
+
+.Developments {
+    color: var(--dark-move);
+    background-color: var(--move);
+}
+
+.health {
+    color: var(--dark-green);
+    background-color: var(--green);
+}
+
+.Music {
+    color: var(--dark-warrning);
+    background-color: var(--warnnig);
+}
+
+/* end best sellers */
+
+/* start Our feature courses */
+
+
+
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    height: 220px;
+    overflow: hidden;
+}
+
+.course-image {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course-content {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.course-price {
+    font-size: 14px;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.course-details {
+    font-size: 14px;
+    color: #777;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating i {
+    color: #ffc107;
+}
+
+.separator {
+
+    color: #000000;
+}
+
+
+.course-price del {
+    color: #aaa;
+    margin-right: 5px;
+}
+
+/* <!-- end Our feature courses -->
+
+
+<!-- start recently added courses --> */
+
+.recently{
+    position: relative;
+}
+
+.recently-course-card {
+    position: relative;
+    height: 400px;
+    width: 312px;
+}
+
+.recently-img {
+    width: 312px;
+    height: 234px;
+    object-fit: cover;
+}
+
+
+.Add-to-Cart-Card{
+    position: absolute;
+    top: 1px;
+    left: 970px;
+    width: 433px;
+    height: 700px;
+}
+
+.discount{
+    width: 85px;
+    height: 30px;
+    background-color: var(--light-orange);
+}
+
+.discount span {
+    text-align: center;
+    justify-content: center;
+    padding: 8px 10px;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.heart{
+    width: 48px;
+    height: 48px;
+    background-color: var(--light-orange);
+}
+
+.heart img {
+    text-align: center;
+    justify-content: center;
+    padding: 8px 10px;
+}
+
+.buttons .sign-in{
+    width: 379px;
+    height: 48px;
+}
+
+.buttons .nav-btn{
+    width: 379px;
+    height: 48px;
+}
+
+/* 
+<!-- end recently added courses -->
+    
+<!-- start become an a instructor --> */
+
+.become-instructor{
+    background-color: var(--light-white);
+}
+
+
+.overlay{
+    position: relative;
+    width: 684px;
+    height: 270px;
+    background-image: linear-gradient( #CC522B , #FF6636);
+}
+
+.instructor-img{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 280px;
+    height: 250px;
+}
+
+
+.step-number {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.step-number-1 {
+    background-color: var(--move);
+    color: var(--dark-move);
+}
+
+.step-number-2 {
+    background-color: var(--light-orange);
+    color: var(--orange);
+}
+
+.step-number-3 {
+    background-color: var(--dark-warrning);
+    color: var(--warnnig);
+}
+
+.step-number-4 {
+    background-color: var(--green);
+    color: var(--dark-green);
+}
+
+
+
+.step-box p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+
+/* end become an a instructor */
+
+
+/* start instructor of the month */
+
+/* Section Background */
+
+
+/* Card Styling */
+.instructor-card {
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.instructor-image {
+    height: 244px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Info Section */
+.instructor-info {
+    padding: 15px;
+}
+
+.instructor-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.instructor-title {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.instructor-rating i {
+    font-size: 1rem;
+}
+
+
+/* Call to Action Link */
+.become-instructor-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.become-instructor-link:hover {
+    text-decoration: underline;
+}
+
+/* end instructor of the month */
+
+
+/* start footer */  
+
+footer {
+    background-color: var(--gray);
+    box-shadow: #363B4780 0px 0px 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffa500; /* Orange hover effect */
+}
+
+footer .fab {
+    font-size: 1.5rem; /* Font Awesome icons size */
+}
+
+footer h3 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1%;
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #959494; 
+}
+
+
+.footer-btn{
+    width: 168px;
+    height: 48px;
+}
+
+.broswe-btn{
+    width: 197px;
+    height: 48px;
+    background-color: #FFFFFF0D;
+    color: var(--white);
+    border: none;
+}
+
+.brand-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.icon-overlay{
+    background-color: #363B4766;
+}
+
+.icon-active {
+    background-color: var(--orange) !important;
+    color: var(--white) !important;
+    box-shadow: 0 0 10px var(--orange), 0 0 20px var(--orange), 0 0 30px var(--orange) !important; 
+    transition: box-shadow 0.3s ease-in-out !important; 
+}
+
+.icon-active:hover {
+    box-shadow: 0 0 15px var(--orange), 0 0 30px var(--orange), 0 0 45px var(--orange) !important; 
+    transition: box-shadow 0.3s ease-in-out !important;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 10px var(--orange), 0 0 20px var(--orange) !important;
+    }
+    50% {
+        box-shadow: 0 0 20px var(--orange), 0 0 40px var(--orange) !important;
+    }
+    100% {
+        box-shadow: 0 0 10px var(--orange), 0 0 20px var(--orange) !important;
+    }
+}
+
+.list-unstyled a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -1%;
+}
+
+
+
+ul li a {
+    position: relative; 
+    color: #959494; 
+    text-decoration: none; 
+    transition: color 0.3s ease, border-bottom 0.3s ease; 
+}
+
+
+ul li a:hover {
+    color: var(--orange); 
+    border-bottom: 2px solid var(--orange); 
+}
+
+
+ul li a::after {
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f061"; 
+    font-weight: 900; 
+    position: absolute;
+    right: -20px; 
+    opacity: 0; 
+    transform: translateX(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    color: var(--orange); 
+}
+
+
+ul li a:hover::after {
+    opacity: 1; 
+    transform: translateX(0); 
+}
+
+
+
+
+/* end footer */
