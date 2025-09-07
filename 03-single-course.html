@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- style css link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>category</title>
+</head>
+
+<body>
+
+    <!-- navbar links -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-links">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become an instructor</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="currencyDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="currencyDropdown">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                            <li><a class="dropdown-item" href="#">L.E.</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Español</a></li>
+                            <li><a class="dropdown-item" href="#">Français</a></li>
+                            <li><a class="dropdown-item" href="#">عربي</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar links -->
+
+
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imgs/icons/logo.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-3" id="navbarNav">
+                <div class="input-group ms-3">
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>browse...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <form class="d-flex ms-3">
+                    <input class="form-control" type="search" placeholder="What do you want to learn..?"
+                        aria-label="Search">
+                </form>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+            <li class="nav-item ms-3">
+                <button type="button" class="nav-btn"> Creat Account</button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="sign-in ms-3">Sign in</button>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <section class="single-course " style="background-color: var(--light-white);">
+        <div class="container ms-5 mt-5 px-5">
+            <div class="single-course-body">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb ms-3">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Development</a></li>
+                        <li class="breadcrumb-item"><a href="#">Wep Development</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Wepflow</li>
+                    </ol>
+                </nav>
+                <div class="course-content mb-2">
+                    <h1 class="fw-bold mb-4">Complete Website Responsive Design: from Figma to Webflow to Website Design
+                    </h1>
+                    <p class="line-height-4">3 in 1 Course: Learn to design websites with Figma, build with Webflow, and
+                        make a living freelancing.</p>
+                </div>
+
+                <div class="person-body">
+                    <div class="person d-flex align-items-center">
+                        <div class="person-img-wrapper position-relative">
+                            <img src="imgs/person-1.svg" alt="" class="rounded-circle person-img">
+                            <img src="imgs/person-2.svg" alt="" class="rounded-circle person-img-2">
+                        </div>
+                        <div class="person-info ms-3">
+                            <p class="mb-0">Created by:</p>
+                            <h5 class="fw-bold mb-0">Dianne Russell • Kristin Watson</h5>
+                        </div>
+                        <div class="rating fw-bold ms-auto">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="fw-bold">4.9</span>
+                            <span class="fw-bold"> (1,245 ratings)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end single course -->
+
+    <!-- start modal -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row py-5 ms-5 left-side">
+                <div class="col-md-6">
+                    <div class="course-model d-flex align-items-center justify-content-center"
+                        style="background-image: url(imgs/bg-img.png); background-size: cover; background-position: center;">
+                        <!-- Button trigger modal -->
+                        <a href="#" class="play-btn d-flex align-items-center justify-content-center"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-play fs-3 "></i>
+                        </a>
+                    </div>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Our Video</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center align-items-center">
+                                    <iframe id="videoIframe" width="90%" height="400px"
+                                        src="https://www.youtube.com/embed/IGjE_zgs2Hw?si=CU5GM8lCLQjcvREu"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-4 d-flex justify-content-center align-items-center mt-2 d g-3">
+                        <div class="col-md-3"><a href="#">Overview</a></div>
+                        <div class="col-md-3"><a href="#">Curriculum</a></div>
+                        <div class="col-md-3"><a href="#">Instructors</a></div>
+                        <div class="col-md-3"><a href="#">Reviews</a></div>
+                    </div>
+
+                    <div class="description">
+                        <h4 class="fw-bold mb-3 mt-5">Description</h4>
+                        <p class="mb-4">It gives you a huge self-satisfaction when you look at your work and say, "I
+                            made this!". I love that feeling after I'm done working on something. When I lean back in my
+                            chair, look at the final result with a smile, and have this little "spark joy" moment. It's
+                            especially satisfying when I know I just made $5,000.</p>
+
+                        <p class="mb-4">I do! And that's why I got into this field. Not for the love of Web Design,
+                            which I do now. But for the LIFESTYLE! There are many ways one can achieve this lifestyle.
+                            This is my way. This is how I achieved a lifestyle I've been fantasizing about for five
+                            years. And I'm going to teach you the same. Often people think Web Design is complicated.
+                            That it needs some creative talent or knack for computers. Sure, a lot of people make it
+                            very complicated. People make the simplest things complicated. Like most subjects taught in
+                            the universities. But I don't like complicated. I like easy. I like life hacks. I like to
+                            take the shortest and simplest route to my destination. I haven't gone to an art school or
+                            have a computer science degree. I'm an outsider to this field who hacked himself into it,
+                            somehow ending up being a sought-after professional. That's how I'm going to teach you Web
+                            Design. So you're not demotivated on your way with needless complexity. So you enjoy the
+                            process because it's simple and fun. So you can become a Freelance Web Designer in no time.
+                        </p>
+
+                        <p class="mb-4">For example, this is a Design course but I don't teach you Photoshop. Because
+                            Photoshop is needlessly complicated for Web Design. But people still teach it to web
+                            designers. I don't. I teach Figma – a simple tool that is taking over the design world. You
+                            will be designing a complete website within a week while others are still learning how to
+                            create basic layouts in Photoshop.
+                        </p>
+
+                        <p class="mb-4">
+                            Second, this is a Development course. But I don't teach you how to code. Because for Web
+                            Design coding is needlessly complicated and takes too long to learn. Instead, I teach
+                            Webflow – a tool that is taking over the web design world. You will be building complex
+                            websites within two weeks while others are still learning the basics of HTML & CSS. Third,
+                            this is a Freelancing course. But I don't just teach you how to write great proposals. I
+                            give you a winning proposal template. When you're done with the course, you will have a
+                            stunning portfolio website with portfolio pieces already in it. Buy this course now and take
+                            it whenever the time is right for you.
+                        </p>
+                    </div>
+                    <div class="row" id="what-you-will-learn" style="background-color: var(--green);">
+                        <h4 class="fw-bold mb-3 mt-5">What you will learn in this course</h4>
+                        <div class="col-md-6 mb-2">
+                            <p class="mb-2 d-flex">
+                                <span class="me-2"><i class="fa-solid fa-check check-overlay"></i></span>
+                                You will learn how to design beautiful websites using Figma, an interface tool used by
+                                designers at Uber, Airbnb and Microsoft.
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <p class="mb-2 d-flex">
+                                <span class="me-2"><i class="fa-solid fa-check check-overlay"></i></span>
+                                You will learn how to take your designs and build them into powerful websites using
+                                Webflow, a state of the art site builder used by teams at Dell, NASA and more.
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <p class="mb-2 d-flex">
+                                <span class="me-2"><i class="fa-solid fa-check check-overlay"></i></span>
+                                You will learn secret tips of Freelance Web Designers and how they make great money
+                                freelancing online.
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <p class="mb-2 d-flex">
+                                <span class="me-2"><i class="fa-solid fa-check check-overlay"></i></span>
+                                Learn to use Python professionally, learning both Python 2 and Python 3!
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <p class="mb-2 d-flex">
+                                <span class="me-2"><i class="fa-solid fa-check check-overlay"></i></span>
+                                Understand how to use both the Jupyter Notebook and create .py files
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <p class="mb-2 d-flex">
+                                <span class="me-2"><i class="fa-solid fa-check check-overlay"></i></span>
+                                Get an understanding of how to create GUIs in the Jupyter Notebook system!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="who-should-enroll" style="width: 872px;">
+                        <h4 class="fw-bold mb-3 mt-5">Who this course is for:</h4>
+                        <p class="mb-4 d-flex">
+                            <span class="me-3">
+                                <i class="fa-solid fa-arrow-right active"></i>
+                            </span>
+                            This course is for those who want to launch a Freelance Web Design career.
+                        </p>
+                        <p class="mb-4 d-flex">
+                            <span class="me-3">
+                                <i class="fa-solid fa-arrow-right active"></i>
+                            </span>
+                            Praesent eget consequat elit. Duis a pretium purus.
+                        </p>
+                        <p class="mb-4 d-flex">
+                            <span class="me-3">
+                                <i class="fa-solid fa-arrow-right active"></i>
+                            </span>
+                            Sed sagittis suscipit condimentum pellentesque vulputate feugiat libero nec accumsan.
+                        </p>
+                        <p class="mb-4 d-flex">
+                            <span class="me-3">
+                                <i class="fa-solid fa-arrow-right active"></i>
+                            </span>
+                            Sed nec dapibus orci integer nisl turpis, eleifend sit amet aliquam vel, lacinia quis ex.
+                        </p>
+                        <p class="mb-4 d-flex">
+                            <span class="me-3">
+                                <i class="fa-solid fa-arrow-right active"></i>
+                            </span>
+                            Those who are looking to reboot their work life and try a new profession that is fun,
+                            rewarding and highly in-demand.
+                        </p>
+                        <p class="mb-4 d-flex">
+                            <span class="me-3">
+                                <i class="fa-solid fa-arrow-right active"></i>
+                            </span>
+                            Nunc auctor consequat lorem, in posuere enim hendrerit sed.
+                        </p>
+                        <p class="mb-4 d-flex">
+                            <span class="me-3">
+                                <i class="fa-solid fa-arrow-right active"></i>
+                            </span>
+                            Duis ornare enim ullamcorper congue consectetur suspendisse interdum tristique est sed
+                            molestie.
+                        </p>
+                    </div>
+                    <div class="Course-requirements">
+                        <h4 class="fw-bold mb-3 mt-5">Course requirements:</h4>
+                        <ul class="list-requirements">
+                            <li class="mb-4">Nunc auctor consequat lorem, in posuere enim hendrerit sed.</li>
+                            <li class="mb-4">Sed sagittis suscipit condimentum pellentesque vulputate feugiat libero nec
+                                accumsan.</li>
+                            <li class="mb-4">Duis ornare enim ullamcorper congue consectetur suspendisse interdum
+                                tristique est sed molestie.</li>
+                            <li class="mb-4">Those who are looking to reboot their work life and try a new profession
+                                that is fun, rewarding and highly in-demand.</li>
+                            <li class="mb-4">Praesent eget consequat elit. Duis a pretium purus.</li>
+                            <li class="mb-4">Sed nec dapibus orci integer nisl turpis, eleifend sit amet aliquam vel,
+                                lacinia quis ex.</li>
+                            <li class="mb-4">This course is for those who want to launch a Freelance Web Design career.
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start footer -->
+
+    <footer class=" py-5 text-light">
+        <div class="container">
+            <!-- Start Learning Row -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Start learning with 67.1k <br> Students around the world.</h2>
+                    <button type="button" class="sign-in footer-btn"> Creat Account</button>
+                    <button class=" broswe-btn ms-3" style="width: 197px; height: 48px;">Browse All Courses</button>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">6.3k</h3>
+                        <p class="mb-0">Online courses</p>
+                    </div>
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">26k</h3>
+                        <p class="mb-0">Certified Instructors</p>
+                    </div>
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">99.9%</h3>
+                        <p class="mb-0">Success <br> Rate</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-secondary mt-5">
+            <!-- Footer Content -->
+            <div class="row py-4 mt-5">
+                <!-- Brand Section -->
+                <div class="col-md-3">
+                    <img src="imgs/icons/LOGO-2.png" alt="" class="mb-3">
+                    <p class="brand-p">Aliquam rhoncus ligula est, non pulvinar elit convallis nec. Donec mattis odio
+                        at.</p>
+                    <div class="d-flex gap-3 footer-icon mb-4">
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-facebook fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay icon-active shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-youtube fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Categories -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Top 4 Category</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Development</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Finance & Accounting</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Design</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Business</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Become Instructor</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Career</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Help Center</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">FAQs</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Download App -->
+                <div class="col-md-3 d-flex flex-column">
+                    <h6 class="fw-bold fs-4 mb-4">Download Our App</h6>
+                    <a href="#" class="btn btn-outline-light mb-2"><i class="fab fa-apple"></i> App Store</a>
+                    <a href="#" class="btn btn-outline-light"><i class="fab fa-google-play"></i> Play Store</a>
+                </div>
+            </div>
+
+            <hr class="bg-secondary">
+
+            <!-- Copyright -->
+            <div class="text-center">
+                <div class="row align-items-center">
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <div class="text-start">
+                            <p class="mb-0 fs-6">© 2024 - Eduflex. Designed by <a href="#" class="text-light">Ahmed
+                                    Hussam</a>. All rights reserved.</p>
+                        </div>
+                        <div class="text-end">
+                            <select class="form-select bg-dark text-light border-light w-auto d-inline-block">
+                                <option selected>English</option>
+                                <option>Spanish</option>
+                                <option>French</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- js link -->
+    <script>
+        // Reset the iframe source when modal is closed
+        document.getElementById('exampleModal').addEventListener('hidden.bs.modal', function () {
+            const iframe = document.getElementById('videoIframe');
+            iframe.src = iframe.src; // This will reset the video
+        });
+    </script>
+
+</body>
+
+</html>

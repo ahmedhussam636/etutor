@@ -13,12 +13,19 @@ body {
     overflow-x: hidden;
 }
 
+p{
+    color: var(--light-gray);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
 
 li {
     list-style: none;
 }
 
 :root {
+
     --dark-warrning: #65390C;
     --dark-green: #15711F;
     --dark-move: #342F98;
@@ -37,6 +44,10 @@ li {
 }
 
 /* general styles */
+
+.nav-item {
+    margin-right: 30px !important;
+}
 
 .navbar-links {
     height: 52px;
@@ -353,13 +364,29 @@ li {
 }
 
 
-.Add-to-Cart-Card{
-    position: absolute;
-    top: 1px;
-    left: 970px;
-    width: 433px;
-    height: 700px;
+
+.Add-to-Cart-Card {
+
+    width: 400px; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
 }
+
+.Add-to-Cart-Card .buttons button {
+    width: 90%; 
+    margin: 5px auto;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .Add-to-Cart-Card {
+        max-width: 100%;
+        margin-bottom: 20px; /* إعطاء مسافة بين الكروت */
+    }
+}
+
 
 .discount{
     width: 85px;
@@ -477,12 +504,14 @@ li {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin-bottom: 20px;
+    width: 244px !important;
+    height: 390px !important;
 }
 
 /* Image Styling */
 .instructor-image {
     height: 244px;
-    width: 100%;
+    width: 244px;
     object-fit: cover;
 }
 
@@ -610,7 +639,7 @@ footer p {
 
 
 
-ul li a {
+footer ul li a {
     position: relative; 
     color: #959494; 
     text-decoration: none; 
@@ -618,13 +647,13 @@ ul li a {
 }
 
 
-ul li a:hover {
+footer ul li a:hover {
     color: var(--orange); 
     border-bottom: 2px solid var(--orange); 
 }
 
 
-ul li a::after {
+footer ul li a::after {
     font-family: "Font Awesome 5 Free"; 
     content: "\f061"; 
     font-weight: 900; 
@@ -637,12 +666,262 @@ ul li a::after {
 }
 
 
-ul li a:hover::after {
+footer ul li a:hover::after {
     opacity: 1; 
     transform: translateX(0); 
 }
 
-
-
-
 /* end footer */
+
+
+                                         /* start category bage */
+
+.fs-arrows i{
+    font-size: 1.5rem;
+    color: var(--light-gray);
+}
+
+.fs-arrows .active  { 
+    color: var(--orange);
+}
+
+.popular-tools-card {
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    width: 100%; 
+    height: 100%;
+}
+
+.popular-tools-card-contnet .active{ 
+    color: var(--orange);
+}
+
+.category-btn {
+    width: 196px;
+    height: 38px;
+    background-color: var(--light-white);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.active{
+    color: var(--orange);
+}
+
+
+.display-9 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -1.5%;
+    width: 143px;
+    height: 24px;
+}
+
+.filter-btn{
+    width: 167px;
+    height: 48px;
+    border: 1px solid var(--light-orange);
+    border-radius: 5px;
+
+}
+
+.filter-num{
+    background-color: var(--light-orange);
+    color: var(--orange);
+    width: 20px;
+    height: 24px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-img{
+    width: 280px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: -10px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link{
+    border: none !important;
+    color: var(--black);
+    width: 40px !important;
+    height: 40px !important;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link:hover{
+    color: var(--orange);
+}
+
+.page-item .active {
+    color: var(--orange);
+    background-color: var(--light-orange);
+}
+
+.page-link span{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+/* end category bage */
+
+/* start single course */ 
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.person-img-wrapper {
+    position: relative;
+    width: 60px; 
+    height: 70px; 
+}
+
+.person-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+}
+
+.person-img-2 {
+    position: absolute;
+    top: -0px;
+    left: 20px;
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left: 80px; 
+    margin-top: -20px;
+}
+
+.rating {
+    margin-left: auto; 
+    text-align: right;
+}
+
+.single-course-body{
+    width: 872px;
+    height: 100%;
+}
+
+.breadcrumb a{
+    color: rgb(33 37 41 / 75%) !important;
+    list-style: none;
+
+}
+
+.course-model{
+    width: 827px;
+    height: 492px;
+}
+
+/* end single course */
+
+/* start modal */
+
+.play-btn{
+    width: 72px;
+    height: 72px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--white);
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease-in-out;
+    color: var(--orange);
+
+}
+
+.play-btn:hover{
+    transform: scale(1.1);
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+
+/* end modal */
+
+.row-cols-4  a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500 ;
+    line-height: 22px;
+    letter-spacing: 0.09em;
+}
+
+.row-cols-4 a:hover{
+    border-bottom: 3px solid var(--orange);
+}
+
+.description > p{
+    color: #4E5566;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -1%;
+}
+
+.check-overlay{
+    width: 24px;
+    height: 24px;
+    background-color: var(--dark-green);
+    border-radius: 50%;
+}
+
+.fa-check{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#what-you-will-learn{
+    width: 872px;
+    height: 360px;
+}
+
+.description{
+    width: 872px;
+}
+
+.left-side{
+    width: 872px;
+}
+
+.who-should-enroll > p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -1%;
+}
+
+.list-requirements li {
+    list-style: disc;
+}
+

@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- style css link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>category</title>
+</head>
+
+<body>
+
+    <!-- navbar links -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-links">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become an instructor</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="currencyDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="currencyDropdown">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                            <li><a class="dropdown-item" href="#">L.E.</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Español</a></li>
+                            <li><a class="dropdown-item" href="#">Français</a></li>
+                            <li><a class="dropdown-item" href="#">عربي</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar links -->
+
+
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imgs/icons/logo.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-3" id="navbarNav">
+                <div class="input-group ms-3">
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>browse...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <form class="d-flex ms-3">
+                    <input class="form-control" type="search" placeholder="What do you want to learn..?"
+                        aria-label="Search">
+                </form>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+            <li class="nav-item ms-3">
+                <button type="button" class="nav-btn"> Creat Account</button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="sign-in ms-3">Sign in</button>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    
+
+    <!-- start courses -->
+
+    <section class="courses py-5">
+        <div class="container">
+            <div class="ms-3 d-flex mb-4">
+                <a href="#" class="filter-btn d-flex align-items-center justify-content-center gap-4 text-decoration-none text-dark"> 
+                    <i class="fa-solid fa-filter"></i> Filter <span class="filter-num">3</span>
+                </a>
+                
+                <form class="d-flex ms-3">
+                    <input class="form-control" type="search" placeholder="UI/UX Design" aria-label="Search">
+                </form>
+            
+                <div class="ms-auto mx-5">
+                    <div class="input-group">
+                        <span class="d-flex align-items-center justify-content-center text-muted">
+                            sort by :
+                        </span>
+                        <select class="form-select ms-2" id="inputGroupSelect01">
+                            <option selected>trendng...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" d-flex justify-content-center align-items-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <h3 class="display-9">suggestions :</h3>
+                </div>
+                
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-decoration-none">
+                        <h6 class="" style="color: var(--orange);">user experience</h6>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <h6 class="" style="color: var(--orange);">user interface</h6>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <h6 class="" style="color: var(--orange);">web design</h6>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <h6 class="" style="color: var(--orange);">interface</h6>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <h6 class="" style="color: var(--orange);">app</h6>
+                    </a>
+                </div>
+            
+                <div class="ms-auto mx-5 d-flex align-items-center justify-content-center">
+                    <p class="d-flex align-items-center justify-content-center text-dark ">
+                        3,145,684  <span class=" d-flex align-items-center justify-content-center ms-2 text-muted"> results find for “ui/ux design” </span>
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row g-4">
+                <!-- first card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-4.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Learn Python Programming Masterclass.</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-11.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Developments
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Complete Blender Creator: Learn 3D Modelling for Beginners</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-7.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health">
+                                    Business
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Adobe Premiere Pro CC – Advanced Training Course</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-6.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Ultimate AWS Certified Solutions Architect Associate 2021</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next page navigation -->
+            <div class="row g-3 mt-5">
+                <!-- sixth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-14.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Music ">
+                                    Music
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Ultimate Google Ads Training 2020: Profit with Pay Per Click</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- seventh card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-8.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Learn Ethical Hacking From Scratch 2021</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- eighth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-13.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health Fitness ">
+                                    Health & Fitness
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Angular - The Complete Guide (2021 Edition)</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ninth card -->
+                <div class="col-lg-3 mb-5">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-12.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">How to get Diamond in soloQ | League of Legends | Season 11</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- first card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-16.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Machine Learning A-Z™: Hands-On Python & R In Data...</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-15.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Developments
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">SQL for NEWBS: Weekender Crash Course</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-10.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health">
+                                    Business
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">SEO 2021: Complete SEO Training + SEO for WordPress Websites</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-5.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">[NEW] Ultimate AWS Certified Cloud Practitioner - 2021</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next page navigation -->
+            <div class="row g-3 mt-5">
+                <!-- sixth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Music ">
+                                    Music
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Data Structures & Algorithms Essentials (2021)</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- seventh card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-18.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Complete Adobe Lightroom Megacourse: Beginner to Expert</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- eighth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-9.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health Fitness ">
+                                    Health & Fitness
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Digital Marketing Masterclass - 23 Courses in 1</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ninth card -->
+                <div class="col-lg-3 mb-5">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-19.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">The Ultimate Drawing Course - Beginner to Advanced</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- first card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-2.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Instagram Marketing 2021: Complete Guide To Instagram Gro...</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-21.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Developments
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Automate the Boring Stuff with Python Programming</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-22.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health">
+                                    Business
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Selenium WebDriver with Java -Basics to Advanced+Frameworks</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth card -->
+                <div class="col-sm-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-23.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">iPhone Photography | Take Professional Photos On Your iPhone</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next page navigation -->
+            <div class="row g-3 mt-5">
+                <!-- sixth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-24.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Music ">
+                                    Music
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Mega Digital Marketing Course A-Z: 12 Courses in 1 + Updates</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- seventh card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-25.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Developments">
+                                    Marketing
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Machine Learning A-Z™: Hands-On Python & R In Data Science</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- eighth card -->
+                <div class="col-lg-3">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-26.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title health Fitness ">
+                                    Health & Fitness
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">2021 Complete Python Bootcamp From Zero to Hero in Python</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ninth card -->
+                <div class="col-lg-3 mb-5">
+                    <div class="testimonial-card p-4">
+                        <!-- img -->
+                        <div class="testimonial-card-img">
+                            <img src="imgs/Course Images-27.png" class="testimonial-img" alt="...">
+                        </div>
+                        <!-- text -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="title Design">
+                                    Design
+                                </div>
+                                <div class="price p-3">
+                                    $57
+                                </div>
+                            </div>
+                            <h5 class="card-title">Premiere Pro CC for Beginners: Video Editing in Premiere</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"> <span class="ms-2">5.0</span></i>
+                            </div>
+                            <div class="views">
+                                265.7K <span class="text-muted"> students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pagination -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center align-items-center">
+                    <li class="page-item">
+                        <a class="page-link rounded-5" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item "><a class="page-link ms-2" href="#">01</a></li>
+                    <li class="page-item"><a class="page-link active ms-2 rounded-5" style="background-color: var(--orange); color: var(--light-orange);" href="#">02</a></li>
+                    <li class="page-item"><a class="page-link ms-2" href="#">03</a></li>
+                    <li class="page-item"><a class="page-link ms-2 active rounded-5" href="#">04</a></li>
+                    <li class="page-item"><a class="page-link ms-2" href="#">05</a></li>
+                    <li class="page-item">
+                        <a class="page-link active ms-2 rounded-5" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- end section -->
+
+    
+
+    <!-- start footer -->
+
+    <footer class=" py-5 text-light">
+        <div class="container">
+            <!-- Start Learning Row -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Start learning with 67.1k <br> Students around the world.</h2>
+                    <button type="button" class="sign-in footer-btn"> Creat Account</button>
+                    <button class=" broswe-btn ms-3" style="width: 197px; height: 48px;">Browse All Courses</button>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">6.3k</h3>
+                        <p class="mb-0">Online courses</p>
+                    </div>
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">26k</h3>
+                        <p class="mb-0">Certified Instructors</p>
+                    </div>
+                    <div class="col-md-2 ms-5">
+                        <h3 class="fw-bold">99.9%</h3>
+                        <p class="mb-0">Success <br> Rate</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-secondary mt-5">
+            <!-- Footer Content -->
+            <div class="row py-4 mt-5">
+                <!-- Brand Section -->
+                <div class="col-md-3">
+                    <img src="imgs/icons/LOGO-2.png" alt="" class="mb-3">
+                    <p class="brand-p">Aliquam rhoncus ligula est, non pulvinar elit convallis nec. Donec mattis odio
+                        at.</p>
+                    <div class="d-flex gap-3 footer-icon mb-4">
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-facebook fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay icon-active shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                        <div class="icon-overlay shadow d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <a href="#" class="text-light"><i class="fab fa-youtube fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Categories -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Top 4 Category</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Development</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Finance & Accounting</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Design</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Business</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Become Instructor</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Career</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="col-md-2">
+                    <h6 class="fw-bold fs-4 mb-4">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Help Center</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">FAQs</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Download App -->
+                <div class="col-md-3 d-flex flex-column">
+                    <h6 class="fw-bold fs-4 mb-4">Download Our App</h6>
+                    <a href="#" class="btn btn-outline-light mb-2"><i class="fab fa-apple"></i> App Store</a>
+                    <a href="#" class="btn btn-outline-light"><i class="fab fa-google-play"></i> Play Store</a>
+                </div>
+            </div>
+
+            <hr class="bg-secondary">
+
+            <!-- Copyright -->
+            <div class="text-center">
+                <div class="row align-items-center">
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <div class="text-start">
+                            <p class="mb-0 fs-6">© 2024 - Eduflex. Designed by <a href="#"
+                                    class="text-light">Ahmed Hussam</a>. All rights reserved.</p>
+                        </div>
+                        <div class="text-end">
+                            <select class="form-select bg-dark text-light border-light w-auto d-inline-block">
+                                <option selected>English</option>
+                                <option>Spanish</option>
+                                <option>French</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- js link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
